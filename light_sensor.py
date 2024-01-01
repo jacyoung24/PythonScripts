@@ -11,7 +11,6 @@ __maintainer__ = "pimylifeup.com"
 GPIO.setmode(GPIO.BCM)
 
 #define the pin that goes to the circuit
-# if no argument is given, use pin 4
 if len(sys.argv) < 2:
     pin_to_circuit = 16
 else:
